@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="background --gradient">
+        <ul class="bg --bubbles">
+                <li><i class="fab fa-html5"></i></li>
+                <li><i class="fab fa-css3-alt"></i></li>
+                <li><i class="fab fa-php"></i></li>
+                <li><i class="fas fa-code"></i></li>
+                <li><i class="fab fa-js"></i></li>
+                <li><i class="fab fa-sass"></i></li>
+                <li><i class="fas fa-laptop"></i></li>
+                <li><i class="fas fa-images"></i></li>
+                <li><i class="fas fa-database"></i></li>
+                <li><i class="fas fa-copyright"></i></li>
+        </ul>
+    </div>
+    
+    <header class="portafolio-header">
+      <div class="portafolio-header__logo">
+        <a href="#">
+          <img src="https://hevelmo.github.io/assets/img/profile/descarga.png" alt="Logo del portafolio de desarrollo web">
+        </a>
+      </div>
+      <nav class="portafolio-header__nav --navigation">
+            <ul>
+                <li><a href="#presentacion" class="active"><i class="fas fa-home"></i>Bienvenido</a></li>
+                <li><a href="#sobre-mi"><i class="fas fa-user"></i>Sobre mí</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i>Resumen Educativo</a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i>Contacto</a></li>
+            </ul>
+        </nav>
+      <button class="portafolio-header__toggle-nav" aria-label="Toggle Navigation Menu">
+        <span class="hamburger"></span>
+      </button>
+    </header>
+    <main>
+        <section id="presentacion" class="portafolio-presentacion">
+            <div class="portafolio-presentacion__container">
+                <!--<div class="portafolio-presentacion__title-bg">Presentación</div>-->
+                <div class="portafolio-presentacion__foto">
+                    <img src="https://hevelmo.github.io/assets/img/profile/images.png" alt="Foto de perfil de usuario">
+                </div>
+                <div class="portafolio-presentacion__nombre">
+                    <h1>Cesar Andre Escriba</h1>
+                </div>
+                <div class="portafolio-presentacion__subtitulo">
+                    <h2 id="output">Programador Jr</h2>
+                </div>
+                <div class="portafolio-presentacion__redes">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <div class="portafolio-presentacion__cta">
+                    <a href="#" class="portafolio-presentacion__cta--contacto"><i class="far fa-envelope"></i>Contacto</a>
+                    <a href="#" class="portafolio-presentacion__cta--cv">Descargar CV <i class="fas fa-cloud-download-alt"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-mi" class="portafolio-sobre-mi">
+            <div class="portafolio-sobre-mi__container">
+                <div class="portafolio-sobre-mi__title-bg">Sobre Mí</div>
+                <div class="portafolio-sobre-mi__about">
+                    <div class="portafolio-sobre-mi__about__icon about-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="portafolio-sobre-mi__about__title about-title">
+                        <h2>Sobre Mí</h2>
+                    </div>
+                    <div class="portafolio-sobre-mi__about__description about-description">
+                        <p>Soy <strong>desarrollador</strong> y <strong>programador web</strong>, con un conocimiento promedio en ambas partes <strong>Front end</strong> y <strong>Back end</strong> para el diseño y la construcción de sitios web desde cero en su desarrollo y su visualización para dispositivos moviles, diseño para sistemas y componentes web.</p>
+                        <ul>
+                            <li class="about-description-age">
+                                <span>Edad</span>
+                                18
+                            </li>
+                            <li class="about-description-email">
+                                <span>Correo electrónico</span>
+                                <a class="portafolio-sobre-mi__email" href="mailto:cescribagarsia@gmail.com">
+                                    Envíame un correo
+                                </a>
+                            </li>
+                            <li class="about-description-phone">
+                                <span>Teléfono</span>
+                                <a class="portafolio-sobre-mi__phone" href="tel:55617507">
+                                    Llamáme
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portafolio-sobre-mi__jobs">
+                    <div class="portafolio-sobre-mi__jobs__icon jobs-icon">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <div class="portafolio-sobre-mi__jobs__title jobs-title">
+                        <h2>Proyectos</h2>
+                    </div>
+                    <div class="portafolio-sobre-mi__jobs__carousel jobs-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="cards-wrapper">
+                                    <div class="carousel-card carousel-card-1">
+                                        <div class="card-content" style="">
+                                            <img src="" alt="CVA logo" class="card-jobs-image jobs-carousel-image" style="">
+                                            <h2 class="card-jobs-title jobs-carousel-title" style="">Comercializadora de Valor Agregado S.A. de C.V. (CVA)</h2>
+                                            <p class="card-jobs-employee jobs-carousel-employee-type">Empleado</p>
+                                            <p class="card-jobs-business jobs-carousel-business-type">Tecnologia y distribución de equipos de computo y tecnologia</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-card carousel-card-2">
+                                        <div class="card-content">
+                                            <img src="" alt="Medigraf logo" class="card-jobs-image jobs-carousel-image">
+                                            <h2 class="card-jobs-title jobs-carousel-title">Medigraf</h2>
+                                            <p class="card-jobs-employee jobs-carousel-employee-type">Empleado</p>
+                                            <p class="card-jobs-business jobs-carousel-business-type">Agencia de publicidad y diseño</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-card carousel-card-3">
+                                        <div class="card-content">
+                                            <img src="" alt="Panamerik Agencia Ecommerce logo" class="card-jobs-image card-jobs-special-image">
+                                            <h2 class="card-jobs-title jobs-carousel-title">Panamerik Agencia Ecommerce</h2>
+                                            <p class="card-jobs-employee jobs-carousel-employee-type">Empleado</p>
+                                            <p class="card-jobs-business jobs-carousel-business-type">Agencia Ecommerce, Magento/Adobe Commerce/SEO/</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-nav carousel-prev"><i class="fa fa-chevron-left"></i></button>
+                                <button class="carousel-nav carousel-next"><i class="fa fa-chevron-right"></i></button>
+                                <div class="carousel-dots"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="resume" class="portafolio-resume">
+            <div class="portafolio-resume__container">
+                <div class="portafolio-presume__title-bg">Resumen</div>
+                <div class="portafolio-resume__career-and-education">
+                    <div class="portafolio-resume__career-and-education__icon career-and-education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="portafolio-resume__career-and-education__title career-and-education-title">
+                        <h2>Educación</h2>		
+                    </div>
+                    <div class="portafolio-resume__career-and-education__timeline-container career-and-education-timeline">
+                        <div class="timeline-container">
+                            <div class="column education">
+                                <div class="column-icon">
+                                    <i class="fa-solid fa-school"></i>
+                                </div>
+                                <h2 class="column-title">Educación</h2>
+                                <div class="timeline">
+                                    <div class="timeline education-timeline">
+                                        <div class="timeline-item">
+                                            <div class="timeline-item__date">2013 - 2017</div>
+                                            <div class="timeline-item__info">
+                                                <h4 class="timeline-item__title">Colegio los sauces</h4>
+                                                <h5 class="timeline-item__career">ESTUDIOS PRIMARIOS</h5>
+                                                <p class="timeline-item__description">En este lugar aprendi lo basico como escribir hablar de manera mas correcta y ordenada etc.</p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-item__date">2018 - 2021</div>
+                                            <div class="timeline-item__info">
+                                                <h4 class="timeline-item__title">Escuela privada rayo de luz</h4>
+                                                <h5 class="timeline-item__career">ESTUDIOS BASICOS</h5>
+                                                <p class="timeline-item__description">Buen lugar con buenos valores mas no la mejor educacion estaban muy estancados en muchos temas.</p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-item__date">2022 - 2024</div>
+                                            <div class="timeline-item__info">
+                                                <h4 class="timeline-item__title">Centro Educativo técnico laboral Kinal</h4>
+                                                <h5 class="timeline-item__career">ESTUDIOS DIVERSIFICADO</h5>
+                                                <p class="timeline-item__description">Buen colegio</p>
+                                            </div>
+                                        </div>                               
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <div class="portafolio-resume__skills">
+            <div class="portafolio-resume__skills__icon skills-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div class="portafolio-resume__skills__title skills-title">
+              <h2>Habilidades</h2>
+            </div>
+                    <div class="portafolio-resume__skills__widgets-cards skills-widgets-cards">
+                        <div class="portafolio-resume__skills__coding-skills__container">
+                            <div class="portafolio-resume__skills__widgets-cards__icon coding-skills-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="portafolio-resume__skills__widgets-cards__title coding-skills-title">
+                                <h3>Habilidades de Código</h3>
+                            </div>
+                            <div class="scroll-container coding-skills-container coding-skills-content">
+                                <div class="scroll-content coding-skills-content">
+                                    <div class="portafolio-resume__skills__widgets-cards__card">
+                                        <div class="portafolio-resume__skills__widgets-cards__card__icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__title">
+                                            HTML/CSS
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__progress">
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-bar" style="width: 80%;"></div>
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-percent">70%</div>
+                                        </div>
+                                    </div>
+                                    <div class="portafolio-resume__skills__widgets-cards__card">
+                                        <div class="portafolio-resume__skills__widgets-cards__card__icon">
+                                            <i class="fab fa-js-square"></i>
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__title">
+                                            JavaScript
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__progress">
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-bar" style="width: 70%;"></div>
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-percent">56%</div>
+                                        </div>
+                                    </div>
+                                    <div class="portafolio-resume__skills__widgets-cards__card">
+                                        <div class="portafolio-resume__skills__widgets-cards__card__icon">
+                                            <i class="fab fa-react"></i>
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__title">
+                                            React
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__progress">
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-bar" style="width: 60%;"></div>
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-percent">30%</div>
+                                        </div>
+                                    </div>
+                                    <div class="portafolio-resume__skills__widgets-cards__card">
+                                        <div class="portafolio-resume__skills__widgets-cards__card__icon">
+                                            <i class="ski-jquery"></i>
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__title">
+                                            MySQL
+                                        </div>
+                                        <div class="portafolio-resume__skills__widgets-cards__card__progress">
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-bar" style="width: 95%;"></div>
+                                            <div class="portafolio-resume__skills__widgets-cards__card__progress-percent">95%</div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                            <!--<button class="scroll-button coding-skills-scroll-button scroll-button-left"><i class="fa fa-chevron-left"></i></button>
+                            <button class="scroll-button coding-skills-scroll-button scroll-button-right"><i class="fa fa-chevron-right"></i></button>-->
+                    </div>
+                        <div class="portafolio-resume__skills__knowledges__container">
+                            <div class="portafolio-resume__skills__knowledges__icon knowledges-icon">
+                                <i class="fa-solid fa-book-open-reader"></i>
+                            </div>
+                            <div class="portafolio-resume__skills__knowledges__title knowledges-title">
+                                <h3>Conocimientos técnicos</h3>
+                            </div>
+                            <ul class="portafolio-resume__skills__knowledges__list knowledges-list">
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        HTML
+                                        <i class="fas fa-code badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        CSS
+                                        <i class="fab fa-css3-alt badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        JavaScript
+                                        <i class="fab fa-js-square badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        MySQL
+                                        <i class="fas fa-question-circle badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        ReactJS
+                                        <i class="fab fa-react badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        Node.js
+                                        <i class="fab fa-node-js badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        Express
+                                        <i class="fas fa-server badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="badge badge--with-icon">
+                                        MongoDB
+                                        <i class="fas fa-database badge--icon badge--left"></i>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+              </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="form_wrap">
+
+            <section class="cantact_info">
+                <section class="info_title">
+                    <span class="fa fa-user-circle"></span>
+                    <h2>INFORMACION<br>DE CONTACTO</h2>
+                </section>
+                <section class="info_items">
+                    <p><span class="fa fa-envelope"></span> cescribagarsia@gmail.com</p>
+                    <p><span class="fa fa-mobile"></span> +502 5561-787</p>
+                </section>
+            </section>
+    
+            <form action="" class="form_contact">
+                <h2>Envia un mensaje</h2>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names">
+    
+                    <label for="phone">Telefono / Celular</label>
+                    <input type="text" id="phone">
+    
+                    <label for="email">Correo electronico *</label>
+                    <input type="text" id="email">
+    
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje"></textarea>
+    
+                    <input type="button" value="Enviar Mensaje" id="btnSend">
+                </div>
+            </form>
+    
+        </section>
+        <script>
+            $(document).ready(function(){
+
+            $('#btnSend').click(function(){
+
+                    var errores = '';
+
+                    // Validado Nombre ==============================
+                    if( $('#names').val() == '' ){
+                        errores += '<p>Escriba un nombre</p>';
+                        $('#names').css("border-bottom-color", "#F14B4B")
+                    } else{
+                        $('#names').css("border-bottom-color", "#d1d1d1")
+                    }
+
+                    // Validado Correo ==============================
+                    if( $('#email').val() == '' ){
+                        errores += '<p>Ingrese un correo</p>';
+                        $('#email').css("border-bottom-color", "#F14B4B")
+                    } else{
+                        $('#email').css("border-bottom-color", "#d1d1d1")
+                    }
+
+                    // Validado Mensaje ==============================
+                    if( $('#mensaje').val() == '' ){
+                        errores += '<p>Escriba un mensaje</p>';
+                        $('#mensaje').css("border-bottom-color", "#F14B4B")
+                    } else{
+                        $('#mensaje').css("border-bottom-color", "#d1d1d1")
+                    }
+
+                    // ENVIANDO MENSAJE ============================
+                    if( errores == '' == false){
+                        var mensajeModal = '<div class="modal_wrap">'+
+                                                '<div class="mensaje_modal">'+
+                                                    '<h3>Errores encontrados</h3>'+
+                                                    errores+
+                                                    '<span id="btnClose">Cerrar</span>'+
+                                                '</div>'+
+                                            '</div>'
+
+                        $('body').append(mensajeModal);
+                    }
+
+                    // CERRANDO MODAL ==============================
+                    $('#btnClose').click(function(){
+                        $('.modal_wrap').remove();
+                    });
+                });
+
+            });
+        </script>
+    </main>    
+</body>
+</html>
